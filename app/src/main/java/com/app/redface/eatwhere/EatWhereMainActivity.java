@@ -24,7 +24,7 @@ public class EatWhereMainActivity extends AppCompatActivity {
         restList = new ArrayList<RestaurantInfo>();
 
         // Temporary Use
-        String[] restNames = {"肉夹馍", "小鸡旗", "越南粉", "小火锅", "沸腾蟹"};
+        String[] restNames = {"肉夹馍233", "小鸡旗", "越南粉", "小火锅", "沸腾蟹"};
         int[] costs = {3, 2, 2, 4, 4};
         for (int i = 0; i < restNames.length; i++) {
             restList.add(new RestaurantInfo(restNames[i], costs[i]));
